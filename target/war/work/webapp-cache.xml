@@ -10,6 +10,9 @@
           <string>WEB-INF/jsp/deniedpage.jsp</string>
           <string>WEB-INF/jsp/loginpage.jsp</string>
           <string>WEB-INF/jsp/showUser.jsp</string>
+          <string>WEB-INF/spring/spring-mybatis-config.xml</string>
+          <string>WEB-INF/spring/spring-security-config.xml</string>
+          <string>WEB-INF/SpringMVC-servlet.xml</string>
           <string>WEB-INF/web.xml</string>
           <string>WEB-INF/classes/com/test/ssm/controller/LoginLogoutController.class</string>
           <string>WEB-INF/classes/com/test/ssm/controller/MainController.class</string>
@@ -22,9 +25,6 @@
           <string>WEB-INF/classes/com/test/ssm/service/UserServiceImpl.class</string>
           <string>WEB-INF/classes/jdbc.properties</string>
           <string>WEB-INF/classes/log4j.properties</string>
-          <string>WEB-INF/classes/spring/spring-mvc-config.xml</string>
-          <string>WEB-INF/classes/spring/spring-mybatis-config.xml</string>
-          <string>WEB-INF/classes/spring/spring-security-config.xml</string>
           <string>WEB-INF/classes/test.xml</string>
           <string>WEB-INF/lib/spring-core-4.0.2.RELEASE.jar</string>
           <string>WEB-INF/lib/commons-logging-1.1.3.jar</string>

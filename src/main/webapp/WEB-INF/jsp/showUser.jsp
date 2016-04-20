@@ -22,7 +22,7 @@
 		   </tr>
 		   <tr>
 			   <td>url：</td>
-			   <td>http://10.45.25.166/SSMTestProject/user/showUser?id=2</td>
+			   <td>http://10.45.25.166/SpringSecurityTestProject/user/showUser?id=2</td>
 		   </tr>
 	   </tbody>
 	   </table>

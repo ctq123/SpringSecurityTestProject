@@ -8,9 +8,9 @@
 	<body>
 		<h1>Common Page</h1>
 		<p>公共访问页面</p>
-		<a href="/SSMTestProject/main/admin">Go AdminPage</a>
+		<a href="/SpringSecurityTestProject/main/admin">Go AdminPage</a>
 		<br/>
-		<a href="/SSMTestProject/auth/login">退出登录</a>
+		<a href="/SpringSecurityTestProject/auth/login">退出登录</a>
 	
 	</body>
 </html>

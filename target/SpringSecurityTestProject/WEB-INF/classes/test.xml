@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><template type="singleSheet" version="Issue_Manage_Export">
+	<sheet bean="com.best.oasis.crm.common.vo.issue.IssueVO" isMain="true" name="Sheet1" nameCN="Sheet1">
+		<meta name="meta">
+			<column dataType="string" excelTitleName="问题编码" property="code"/>
+			<column dataType="string" excelTitleName="来源" property="dialogSource"/>
+			<column dataType="string" excelTitleName="问题类型" property="issueTypeName"/>
+			<!--  
+			<column dataType="string" excelTitleName="来电号码" property="callRecord.callNumber"/>
+			<column dataType="string" excelTitleName="来电对象" property="callRecord.caller"/>
+			-->
+			
+			
+			
+			
+			<column dataType="string" excelTitleName="来电对象类型" property="callRecord.callerType"/>
+			<column dataType="string" excelTitleName="运单号" property="expressCode"/>
+			
+			<column dataType="string" excelTitleName="揽件站点" property="collectExpressSiteName"/>
+			<column dataType="string" excelTitleName="异常类型" property="complaintTypeName"/>
+			
+			
+			
+			<column dataType="string" excelTitleName="上一处理组" property="lastHandleGroupStr"/>
+			<column dataType="string" excelTitleName="上一处理人" property="lastProcessingName"/>
+			<column dataType="string" excelTitleName="问题所在组别" property="issueGroupType"/>
+			<column dataType="string" excelTitleName="处理组/站点" property="handleLCSorSiteStr"/>
+			<column dataType="string" excelTitleName="处理站点所在省市" property="handleSiteProvinceCity"/>
+			
+			<column dataType="string" excelTitleName="问题状态" property="status"/>
+			<column dataType="string" excelTitleName="问题描述" property="issueDescription"/>
+			<column dataType="string" excelTitleName="指定处理人" property="operatorNumber"/>
+			<column dataType="string" excelTitleName="重要程度" property="issueUrgencyDegree"/>
+			<column dataType="number" excelTitleName="来电次数" property="calledTimes"/>
+			
+			<column dataType="string" excelTitleName="TAT" property="TAT"/>
+			
+			
+			<column dataType="string" excelTitleName="LCS组" property="lcs.name"/>
+			<column dataType="string" excelTitleName="责任方1" property="blameSite1Name"/>
+			<column dataType="string" excelTitleName="所属省份" property="blameSite1Province"/>
+			<column dataType="string" excelTitleName="责任方2" property="blameSite2Name"/>
+			<column dataType="string" excelTitleName="所属省份" property="blameSite2Province"/>
+			<column dataType="string" excelTitleName="解决方案" property="solution"/>
+			<column dataType="number" excelTitleName="承诺回电时间(小时)" property="commitmentCallBackHour"/>
+			
+			
+			<column dataType="date" excelTitleName="预约回电时间" property="appointmentCallBackTime"/>
+			<column dataType="string" excelTitleName="及时响应" property="ontimeStr"/>
+			<column dataType="string" excelTitleName="备注" property="remark"/>
+			
+			<column dataType="string" excelTitleName="录入组" property="entryGroup"/>
+			<column dataType="string" excelTitleName="录入组/站点" property="entryLcsSiteCsName"/>
+			<column dataType="string" excelTitleName="录入站点所在省市" property="entryLcsSiteCsArea"/>
+			
+			<column dataType="string" excelTitleName="创建人" property="creatorName"/>
+			<column dataType="date" excelTitleName="创建时间" property="createTime"/>
+			<column dataType="string" excelTitleName="最后更新人" property="lastUpdatorName"/>
+			<column dataType="date" excelTitleName="最后更新时间" property="lastUpdateTime"/>
+		</meta>
+		<header>
+			<row/>
+		</header>
+	</sheet>
+</template>
