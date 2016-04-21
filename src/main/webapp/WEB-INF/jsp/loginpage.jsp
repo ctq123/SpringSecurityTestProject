@@ -23,5 +23,7 @@
 			<input type="submit" value="Login"/>
 			
 		</form>
+		
+		<div>url：<span>http://10.45.25.166/SpringSecurityTestProject/auth/login</span></div>
 	</body>
 </html>
