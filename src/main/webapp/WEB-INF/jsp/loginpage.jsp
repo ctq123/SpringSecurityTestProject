@@ -24,6 +24,6 @@
 			
 		</form>
 		
-		<div>url：<span>http://10.45.25.166/SpringSecurityTestProject/auth/login</span></div>
+		<div>url：<span>http://10.45.25.218/SpringSecurityTestProject/auth/login</span></div>
 	</body>
 </html>

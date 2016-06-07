@@ -54,6 +54,9 @@ public class UserServiceImpl implements UserService ,UserDetailsService{
 			//设置springsecurity角色权限
 			user.getAuthorities();
 			
+//			SecurityContextHolder.getContext().getAuthentication().
+			
+			//设置认证用户UserDetails
 			UserDetails userdetails = new org.springframework.security.core.userdetails.User(
 					user.getUsername(), user.getPassword(),true, true, true, true, user.getAuthorities());
 			
