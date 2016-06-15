@@ -7,4 +7,5 @@ import com.test.ssm.entity.Comment;
 public interface CommentService {
 	public int insertSelective(Comment record);
 	public List<Comment> selectAll();
+	public int selectMaxID();
 }

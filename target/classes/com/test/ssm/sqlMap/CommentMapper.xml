@@ -69,9 +69,15 @@
     where id = #{id,jdbcType=INTEGER}
   </update>
   
-    <select id="selectAll" resultMap="BaseResultMap">
+  <select id="selectAll" resultMap="BaseResultMap">
 	    select 
 	    <include refid="Base_Column_List" />
 	    from ssm_comment
   </select>
+  
+  <select id="selectMaxID" resultType="java.lang.Integer">
+  	select max(cc.id) from ssm_comment cc;
+  </select>
+  
+  
 </mapper>

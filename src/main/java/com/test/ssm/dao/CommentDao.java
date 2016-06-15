@@ -18,4 +18,6 @@ public interface CommentDao {
     int updateByPrimaryKey(Comment record);
     
     List<Comment> selectAll();
+    
+    int selectMaxID();
 }

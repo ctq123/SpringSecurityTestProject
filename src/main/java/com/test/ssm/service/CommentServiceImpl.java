@@ -35,5 +35,14 @@ public class CommentServiceImpl  implements CommentService{
 		}
 		return null;
 	}
+	
+	public int selectMaxID() {
+		try{
+			return this.commentDao.selectMaxID();
+		}catch(Exception e){
+			logger.error("CommentServiceImpl selectMaxID error:"+e.getMessage());
+		}
+		return 1;
+	}
 
 }

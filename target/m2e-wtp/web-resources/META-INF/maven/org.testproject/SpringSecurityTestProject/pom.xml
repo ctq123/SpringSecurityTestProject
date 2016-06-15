@@ -21,6 +21,15 @@
   </properties>
   
   <dependencies>
+  <!--  
+  <dependency>
+        <groupId>org.apache.tomcat</groupId>
+        <artifactId>tomcat-catalina</artifactId>
+        <version>7.0.37</version>
+        <scope>provided</scope>
+    </dependency>
+  -->
+  
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
